@@ -1,0 +1,344 @@
+body{
+background-image: url("5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, sans-serif;
+}
+
+#exam-countdown {
+    margin: 30px auto 20px;
+    max-width: 900px;
+    color: #fff;
+}
+
+.exam-countdown-card {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.exam-heading {
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #9ec5ff;
+}
+
+.exam-countdown-card h3 {
+    margin: 0 0 20px;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.timer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    gap: 15px;
+}
+
+.timer-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 18px 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.timer-box span {
+    display: block;
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-weight: bold;
+    color: #7fd0ff;
+}
+
+.timer-box small {
+    color: #dceaff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.exam-date {
+    margin-top: 18px;
+    color: #dceaff;
+    font-size: 0.95rem;
+}
+
+.exam-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: grid;
+    gap: 10px;
+}
+
+.exam-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+.exam-list li.current {
+    background: rgba(0, 0, 0, 0.45);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.exam-list li.done {
+    opacity: 0.7;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.exam-list li.upcoming {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.exam-list li strong {
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #dceaff;
+}
+
+.exam-finished {
+    background: rgba(20, 80, 30, 0.7);
+}
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 14px 20px;
+    margin: 20PX 20px;
+}
+#a2{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 20px;
+}
+#a2:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a2:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#a3{
+    background-color:darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+} 
+#a3:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a3:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#a4{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+}
+#a4:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a4:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#a5{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+}
+#a5:hover{
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+     font-style: oblique;
+}
+#a5:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+section table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+section table th,
+section table td {
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 12px;
+}
+#biology{
+    background-color: lightblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+#biology:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#biology:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#labs{
+    background-color: lightblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+#labs:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#labs:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#chemistry{
+    background-color: lightblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+#chemistry:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#chemistry:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#english{
+    background-color: lightblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+#english:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#english:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#biochem{
+    background-color: lightblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+#biochem:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}  
+#biochem:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#maths{
+    background-color: lightblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+#maths:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#maths:active{
+    background-color: #4CAF50;
+    color: white;
+}

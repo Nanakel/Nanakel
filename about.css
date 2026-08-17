@@ -1,0 +1,113 @@
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 14px 20px;
+    margin: 20PX 20px;
+}
+#a2{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 20px;
+}
+#a2:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a2:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#a3{
+    background-color:darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+} 
+#a3:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a3:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#a4{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+}
+#a4:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a4:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#a5{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+}
+#a5:hover{
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+     font-style: oblique;
+}
+#a5:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#contact{
+background-color: tan;
+    color: white;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#quote{
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    position: right;
+}

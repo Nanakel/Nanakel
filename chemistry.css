@@ -1,0 +1,117 @@
+body{
+    background-image: url("chem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 14px 20px;
+    margin: 20PX 20px;
+}
+#a2{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 20px;
+}
+#a2:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a2:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#a3{
+    background-color:darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+} 
+#a3:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a3:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#a4{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+}
+#a4:hover{
+    background-color: #ddd;
+    color: black;
+     text-decoration: underline;
+     font-style: oblique;
+}
+#a4:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#a5{
+    background-color: darkblue;
+    color: blue;
+    padding: 14px 20px;
+    border-radius:20px;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    margin: 0 20px;
+}
+#a5:hover{
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+     font-style: oblique;
+}
+#a5:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.biology-link {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    display: inline-block;
+    max-width: 90%;
+}
+
+.biology-link a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.biology-link a:hover {
+    text-decoration: underline;
+    color: #dfe9ff;
+}

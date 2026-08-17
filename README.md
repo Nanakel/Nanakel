@@ -1,16 +1,35 @@
-## Hi there 👋
+# WWW Website Project
 
-<!--
-**Nanakel/Nanakel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This folder contains the HTML/CSS/JS files for your site. Follow the commands below to create a public GitHub repository and upload everything.
 
-Here are some ideas to get you started:
+Recommended steps (run from `c:\Users\LENOVO\Desktop\WWW`):
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1) Initialize, commit, and push using `gh` (GitHub CLI):
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: upload WWW project"
+# Replace <YOUR_USERNAME> and <REPO_NAME>, and choose --public or --private
+gh repo create <YOUR_USERNAME>/<REPO_NAME> --public --source=. --remote=origin --push
+```
+
+2) If you don't have `gh`, create a repo on https://github.com/new then run:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: upload WWW project"
+git branch -M main
+git remote add origin https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
+git push -u origin main
+```
+
+After pushing, your public link will be:
+
+`https://github.com/<YOUR_USERNAME>/<REPO_NAME>`
+
+Notes
+- To create a single-file quick share instead, see `gh gist create` (Gist option).
+- If you want, tell me your GitHub username and repository name and I will output the exact commands with those values filled in.
+
